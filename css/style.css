@@ -1,0 +1,261 @@
+.navigation-bar {
+  background-color: black !important;
+}
+
+ul a {
+  font-family: "Source Code Pro", monospace;
+}
+
+body {
+  width: 100vw;
+}
+
+svg {
+  color: #F8F8D6;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: #5D7E62;
+  font-size: 3.5rem;
+}
+
+.intro-img {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  margin-top: 40vh;
+}
+
+.solorzano {
+  font-size: 2.3rem;
+}
+
+.introduction {
+  background-color: #F8F8D6;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 65px;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+}
+
+p {
+  font-family: "DotGothic16", sans-serif;
+}
+
+.about-me {
+  background: #D0DEB8; /* agrego esta por si el navegador no es compatible con los gradientes */
+  background: linear-gradient(180deg, #F8F8D6 50%, #54736E 50%);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.about-me h2 {
+  color: #FF9B52;
+  font-size: 1.8rem;
+  -webkit-text-stroke: 1px black; /* para hacer los bordes de las letras negro */
+  padding: 20px 0;
+}
+.about-me p {
+  font-size: 1rem;
+}
+
+.about-me-text {
+  background-color: #D0DEB8;
+  width: 85%;
+  padding: 20px;
+}
+
+.about-me-page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.projects {
+  background-color: #54736E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects h2 {
+  color: #F8F8D6;
+  margin-left: 15px;
+  padding-top: 40px;
+}
+.projects a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.projects img {
+  height: auto;
+  width: 95%;
+  padding: 40px 10px;
+  filter: grayscale(70%);
+}
+.projects button {
+  border: none;
+  background-color: #F8F8D6;
+  border-radius: 30px;
+  font-family: "Source Code Pro", monospace;
+  margin: 20px;
+  padding: 15px 25px;
+}
+
+.images {
+  width: 100%;
+  background-color: var(--medium-green);
+}
+
+.projects-two {
+  margin-left: 15vw;
+}
+
+.projects-three {
+  margin-left: 30vw;
+}
+
+.orange {
+  background-color: var(--soft-orange);
+}
+
+.projects-button {
+  background-color: var(--soft-orange);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#projects {
+  background-color: #5D7E62;
+}
+
+.pr-button {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+}
+.pr-button button {
+  background-color: #F8F8D6;
+  border: none;
+  margin: 40px;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.pr-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2vh 0;
+}
+.pr-title h2 {
+  color: #F8F8D6;
+  text-align: center;
+  padding: 0;
+}
+
+.orange-projects {
+  background-color: #FFB884;
+}
+
+.projects-page img {
+  max-width: 500px;
+  flex-shrink: 1;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+.projects-page div {
+  display: flex;
+  justify-content: center;
+}
+
+.pr-left {
+  color: #F8F8D6;
+  background-color: #5D7E62;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pr-left div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pr-green {
+  background-color: #5D7E62;
+  color: white;
+}
+
+.pr-orange {
+  background-color: #FFB884;
+  color: #2E4347;
+}
+
+.pr-right img {
+  max-width: 500px;
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+  margin-right: 3vw;
+}
+.pr-right p {
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.contact {
+  background-color: #FFB884;
+  background-image: url(../img/contact.png);
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+.contact form {
+  padding: 7vw;
+  background-color: #2E4347;
+}
+.contact input, .contact textarea {
+  width: 70vw;
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 2vh;
+  border: none;
+}
+
+.light-green {
+  background-color: #D0DEB8;
+}
+
+.submit-button {
+  background-color: #F8F8D6;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.contact-alone {
+  height: 95vh;
+  padding: 0;
+  align-items: center;
+}
+.contact-alone .form-alone {
+  box-sizing: content-box;
+}
+
+/*# sourceMappingURL=style.css.map */
