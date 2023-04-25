@@ -1,0 +1,45 @@
+.contact {
+    background-color: $soft-orange;
+    background-image: url(../img/contact.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+
+    form {
+        padding: 7vw;
+        background-color: $black-green;
+    }
+
+    input, textarea {
+        width: 70vw;
+        font-family: 'Source Code Pro', monospace;
+        margin-bottom: 2vh;
+        border: none;
+    }
+}
+
+.light-green {
+    background-color: $light-green;
+}
+
+.submit-button {
+    background-color: $light-yellow;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+// ------------- contact page ----------
+
+.contact-alone {
+    height: 95vh;
+    padding: 0;
+    align-items: center;
+    
+    .form-alone {
+        box-sizing: content-box;
+    }
+}

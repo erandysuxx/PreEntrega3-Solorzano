@@ -1,0 +1,155 @@
+.projects {
+    background-color: $medium-green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        color: $light-yellow;
+        margin-left: 15px;
+        padding-top: 40px;
+    }
+
+    a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content:  center;
+    }
+
+    img {
+        height: auto;
+        width: 95%;
+        padding: 40px 10px;
+        filter: grayscale(70%);
+    }
+
+    button {
+        border: none;
+        background-color: $light-yellow;
+        border-radius: 30px;
+        font-family: 'Source Code Pro', monospace;
+        margin: 20px;
+        padding: 15px 25px;
+    }
+}
+
+.images {
+    width: 100%;
+    background-color: $medium-green;
+}
+
+.projects-two {
+    margin-left: 15vw;
+}
+
+.projects-three {
+    margin-left: 30vw;
+}
+
+.orange {
+    background-color: $soft-orange;
+}
+
+.projects-button {
+    background-color: $soft-orange;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+// ---------------- projects page -----------
+
+#projects {
+    background-color: $dark-green;
+}
+
+.pr-button {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+    button {
+        background-color: $light-yellow;
+        border: none;
+        margin: 40px;
+        padding: 10px 30px;
+        border-radius: 30px;
+    }
+}
+
+.pr-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vh 0;
+
+    h2 {
+        color: $light-yellow;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.orange-projects {
+    background-color: $soft-orange;
+}
+
+.projects-page {
+    img {
+        max-width: 500px;
+        flex-shrink: 1;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// --------------- projects expanded ----------
+
+.pr-left {
+    color: $light-yellow;
+    background-color: $dark-green;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.pr-green {
+    background-color: $dark-green;
+    color: white;
+}
+
+.pr-orange {
+    background-color: $soft-orange;
+    color: $black-green;
+}
+
+.pr-right {
+    img {
+        max-width: 500px;
+        padding-bottom: 3vh;
+        padding-top: 5vh;
+        margin-right: 3vw;
+    }
+
+    p {
+        min-width: 300px;
+        max-width: 400px;
+    }
+}

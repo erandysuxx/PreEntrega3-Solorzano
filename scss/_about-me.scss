@@ -1,0 +1,38 @@
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.about-me {
+    background: $light-green; /* agrego esta por si el navegador no es compatible con los gradientes */
+    background: linear-gradient(180deg, $light-yellow 50%, $medium-green 50%);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+    h2 {
+        color: $orange;
+        font-size: 1.8rem;
+        -webkit-text-stroke: 1px black; /* para hacer los bordes de las letras negro */
+        padding: 20px 0;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.about-me-text {
+    background-color: $light-green;
+    width: 85%;
+    padding: 20px;
+}
+
+.about-me-page {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

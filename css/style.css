@@ -114,7 +114,7 @@ p {
 
 .images {
   width: 100%;
-  background-color: var(--medium-green);
+  background-color: #54736E;
 }
 
 .projects-two {
@@ -126,11 +126,11 @@ p {
 }
 
 .orange {
-  background-color: var(--soft-orange);
+  background-color: #FFB884;
 }
 
 .projects-button {
-  background-color: var(--soft-orange);
+  background-color: #FFB884;
   width: 100%;
   text-align: center;
   padding-bottom: 100px;
