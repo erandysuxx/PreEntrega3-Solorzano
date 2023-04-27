@@ -121,14 +121,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
-    div {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
 }
+
+
 
 .pr-green {
     background-color: $dark-green;
@@ -151,5 +146,12 @@
     p {
         min-width: 300px;
         max-width: 400px;
+    }
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
