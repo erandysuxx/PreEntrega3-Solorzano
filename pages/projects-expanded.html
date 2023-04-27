@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Projects expanded</title>
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,11 +16,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
-<body id="projects">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white navigation-bar">
             <a class="navbar-brand" href="../index.html">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16" alt="a home icon">
                     <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
                 </svg>
             </a>
@@ -39,42 +39,49 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">D/L</a>
+                        <a class="nav-link" href="#">Projects</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="pr-title">
-        <h2>Projects</h2>
-        <h2>projects</h2>
-        <h2>projects</h2>
-    </div>
-    <div class="projects-page row">
-                <div class="col green-projects">
-                    <a href="https://celebrated-alpaca-115887.netlify.app">
-                        <img src="../img/testimonials.png" alt="">
-                    </a>
-                </div>
-                <div class="col orange-projects">
-                    <a href="https://resilient-brigadeiros-02014e.netlify.app"><img src="../img/qr-code.png" alt=""></a>
-                </div>
-                <div class="col green-projects">
-                    <a href="https://bejewelled-dango-464029.netlify.app"><img src="../img/results-summary.png" alt=""></a>
-                </div>
-                <div class="col orange-projects">
-                    <a href=""><img src="../img/image-icon.jpeg" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="pr-button">
-            <a href="projects-expanded.html"><button>View more</button></a>
-        </div>
-    </div>
 
+    <section class="projects-expanded">        
+                <div class="pr-left">
+                    <h2 class="">Projects</h2>
+                </div>
+                <div class="pr-right">
+                    <div class="pr-green">
+                        <a class="" href="https://celebrated-alpaca-115887.netlify.app"><img class="grid-one left" src="../img/testimonials.png" alt="a screenshot of a webpage with clients reviews"></a>
+                        <p class="">
+                        In this work I created a webpage showing some testimonials. I used grid and flexbox.<br> One of the hardest things was to manage to get the page always centered when changing the screen size. 
+                        </p>
+                    </div>
+                    <div class="pr-orange">  
+                        <a href="https://resilient-brigadeiros-02014e.netlify.app"><img class="grid-four right" src="../img/qr-code.png" alt="a screenshot of a qr-code"></a>
+                        <p class="">
+                            This was my first aproach to flexbox. It's a simple qr code centered on the webpage. <br>The good part about creating this page was learning of to use other units besides pixels, like vw or rem.
+                        </p>
+                    </div>
+                    <div class="pr-green">
+                        <a href="https://bejewelled-dango-464029.netlify.app"><img class="grid-five left" src="../img/results-summary.png" alt="a screenshot of a webpage showing some test results"></a>
+                        <p class="">
+                            Besides the use of flexbox and a little of grid, also this was my first time triyng to get some good and coherent gradients and also making the SVGs work.
+                        </p>
+                    </div>
+                    <div class="pr-orange">
+                        <img  src="../img/image-icon.jpeg" alt="a screenshot of a cat's webpage">
+                        <p>
+                            This is my first webpage, is a web with pictures of my cat. I got the template from the Odin Project. 
+                        </p>
+                    </div>
+                </div>
+
+            
+
+        </div>
+    </section>
+    
 
         <!-- script de Bootstrap-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

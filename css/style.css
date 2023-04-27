@@ -258,4 +258,84 @@ p {
   box-sizing: content-box;
 }
 
+@media (min-width: 1100px) {
+  .about-me-text {
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 9vw;
+  }
+}
+
+@media (min-width: 800px) {
+  .intro-img {
+    margin-top: 10vh;
+    width: 35%;
+  }
+}
+
+@media (min-width: 800px) {
+  .solorzano {
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 800px) {
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 800px) {
+  .images a {
+    min-width: 30vw;
+    max-width: 48vw;
+  }
+}
+
+@media (min-width: 800px) {
+  .projects h2 {
+    padding: 100px 0 150px;
+  }
+}
+@media (min-width: 800px) {
+  .projects button {
+    width: 25vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (min-width: 800px) {
+  .projects-button {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 800px) {
+  .pr-title {
+    padding: 50px 100px 75px;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .contact form {
+    padding: 3rem 2rem;
+    width: 50%;
+  }
+}
+@media (min-width: 800px) {
+  .contact input, .contact textarea {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

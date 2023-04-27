@@ -1,0 +1,108 @@
+$breakpoints: (
+    "lg": 800px,
+    "xl": 1100px
+);
+
+@mixin lg {
+    @media (min-width: map-get($breakpoints, "lg")) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: map-get($breakpoints, "xl")) {
+        @content 
+    }
+}
+
+.about-me-text {
+    @include xl {
+        width: 50%;
+    }
+}
+
+h1 {
+    @include lg {
+        font-size: 9vw;
+    }
+}
+
+.intro-img {
+    @include lg {
+    margin-top: 10vh;
+    width: 35%;
+    }
+}
+
+.solorzano {
+    @include lg {
+    font-size: 8vw;
+    }
+}
+
+// --------- projects 
+
+.images {
+    @include lg {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    a {
+        @include lg {
+            min-width: 30vw;
+            max-width: 48vw;
+        }
+    }
+}
+
+.projects {
+    h2 {
+        @include lg {
+            padding: 100px 0 150px;
+        }
+    }
+    button {
+        @include lg {
+            width: 25vw;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+}
+
+.projects-button {
+    @include lg {
+    padding-top: 80px;
+    }
+}
+
+// --------- projects page 
+
+.pr-title {
+    @include lg {
+        padding:  50px 100px 75px;
+    }
+}
+
+
+// ----------- contact 
+
+.contact {
+    @include lg {
+    width: 100%;
+    }
+    form {
+        @include lg {
+            padding: 3rem 2rem;
+            width: 50%;
+        }
+    }
+    input, textarea {
+        @include lg {
+            width: 100%;
+        }
+    }
+}
+
+
+
