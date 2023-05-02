@@ -1,7 +1,6 @@
+
 .contact {
-    background-color: $soft-orange;
-    background-image: url(../img/contact.png);
-    background-repeat: repeat;
+
     display: flex;
     justify-content: center;
     padding-top: 300px;
@@ -20,6 +19,12 @@
     }
 }
 
+.contact-page {
+        background-image: radial-gradient(#D0DEB8 10%, transparent 20%), radial-gradient(#F8F8D6 10%, transparent 20%);
+        background-color: #FFB884;
+        background-position: 0 0, 50px 50px;
+        background-size: 100px 100px;
+}
 .light-green {
     background-color: $light-green;
 }

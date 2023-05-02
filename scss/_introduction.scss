@@ -1,7 +1,10 @@
+
 h1 {
     font-family: 'Press Start 2P', cursive;
     color: $dark-green;
     font-size: 3.5rem;
+    padding-left: 15px;
+    overflow-x: hidden;
 }
 
 .intro-img {
@@ -12,7 +15,7 @@ h1 {
     right: 0;
     top: 0;
     width: 50%;
-    margin-top: 40vh;
+    margin-top: 30vh;
 } 
 
 .solorzano {

@@ -18,6 +18,8 @@ h1 {
   font-family: "Press Start 2P", cursive;
   color: #5D7E62;
   font-size: 3.5rem;
+  padding-left: 15px;
+  overflow-x: hidden;
 }
 
 .intro-img {
@@ -27,7 +29,7 @@ h1 {
   right: 0;
   top: 0;
   width: 50%;
-  margin-top: 40vh;
+  margin-top: 30vh;
 }
 
 .solorzano {
@@ -48,6 +50,10 @@ h2 {
 
 p {
   font-family: "DotGothic16", sans-serif;
+}
+
+.about-page {
+  height: 100vh;
 }
 
 .about-me {
@@ -218,9 +224,6 @@ p {
 }
 
 .contact {
-  background-color: #FFB884;
-  background-image: url(../img/contact.png);
-  background-repeat: repeat;
   display: flex;
   justify-content: center;
   padding-top: 300px;
@@ -235,6 +238,13 @@ p {
   font-family: "Source Code Pro", monospace;
   margin-bottom: 2vh;
   border: none;
+}
+
+.contact-page {
+  background-image: radial-gradient(#D0DEB8 10%, transparent 20%), radial-gradient(#F8F8D6 10%, transparent 20%);
+  background-color: #FFB884;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
 }
 
 .light-green {
